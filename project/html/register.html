@@ -1,0 +1,51 @@
+<html>
+  <meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/signin_style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html">
+            <img src="1234.png" class="logo">
+        </a>
+        
+        
+        <!-- <input type="image" src="1234.png" class="logo" > -->
+            <h1>Регистрация</h1>
+            <form action="/php/signin.php" method="post">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Фамилия</label>
+                    <input type="text" id="name" name="surname" required>
+                </div>
+                <div class="form-group">
+                    <label for="patronimic">Отчество</label>
+                    <input type="text" id="name" name="patronimic">
+                </div>
+                <div class="form-group">
+                    <label for="login">Логин</label>
+                    <input type="text" id="name" name="login" required>
+                </div>
+                <div class="form-group">
+                    <label for="nember">Номер телефона</label>
+                    <input type="text" id="name" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Зарегистрироваться" class="button">
+                </div>
+            </form>
+            <p class="text">Уже есть аккаунт? <a href="login.html">Войти</a></p>
+    </div>
+</body>
+</html>
